@@ -1,0 +1,22 @@
+{
+  "name": "storefunko",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mateoHinc/storeFunko.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mateoHinc/storeFunko/issues"
+  },
+  "homepage": "https://github.com/mateoHinc/storeFunko#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
