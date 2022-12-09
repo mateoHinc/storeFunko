@@ -1,0 +1,19 @@
+.cardBody {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 60px;
+    grid-gap: 20px;
+    padding: 10px 0 10px 30px;
+}
+
+.footer {
+    padding: 10px 10px 0 10px;
+    background-color: red;
+    margin-bottom: 0px;
+    margin-top: 10px
+}
