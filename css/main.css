@@ -26,3 +26,9 @@ a {
     font-size:13px;
 }
 
+@media screen and (max-width:540) {
+    .centeronMobile {
+        text-align: center;
+    }
+}
+
