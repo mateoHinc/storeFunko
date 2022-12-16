@@ -21,6 +21,7 @@
     "lite-server": "^2.6.1"
   },
   "dependencies": {
+    "@icon/feather": "^4.28.0-alpha.0",
     "bootstrap": "^5.2.3"
   }
 }
