@@ -26,9 +26,13 @@ a {
     font-size:13px;
 }
 
-@media screen and (max-width:540) {
-    .centeronMobile {
+.form-control {
+    outline:none !important;
+    box-shadow: none !important;
+}
+
+@media screen and (max-width:540px) {
+    .centerOnMobile {
         text-align: center;
     }
 }
-
