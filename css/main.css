@@ -1,3 +1,8 @@
+.jumbotron {
+    background: linear-gradient(262deg, rgba(71,116,203,1) 49%, rgba(2,0,36,1) 94%);
+    color: white;
+}
+
 .cardBody {
     padding-top: 15px;
     padding-bottom: 15px;
