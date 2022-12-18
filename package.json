@@ -22,6 +22,7 @@
   },
   "dependencies": {
     "@icon/feather": "^4.28.0-alpha.0",
-    "bootstrap": "^5.2.3"
+    "bootstrap": "^5.2.3",
+    "material-icons": "^1.13.1"
   }
 }
