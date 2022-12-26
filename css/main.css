@@ -53,3 +53,14 @@ a {
 .accordionPay {
     margin-top: 20px;
 }
+
+.buttonModal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageC {
+    width: auto;
+    height: 400px;
+}
