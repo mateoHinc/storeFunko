@@ -1,0 +1,59 @@
+.jumbotron {
+  /*background: linear-gradient(262deg, rgba(71,116,203,1) 49%, rgba(2,0,36,1) 94%);*/
+  background: #083C98;
+  color: white; }
+
+.cardBody {
+  /*padding-top: 15px;
+    padding-bottom: 15px;*/
+  padding-top: 15px;
+  padding-bottom: 15px; }
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: 60px;
+  grid-gap: 20px;
+  padding: 10px 0 10px 30px; }
+
+.lineDraw {
+  width: 60px;
+  background-color: #e7dfdf;
+  height: 2px; }
+
+a {
+  font-size: 14px;
+  font-weight: 700; }
+
+.superNav {
+  font-size: 13px; }
+
+.form-control {
+  outline: none !important;
+  box-shadow: none !important; }
+
+@media screen and (max-width: 540px) {
+  .centerOnMobile {
+    text-align: center; } }
+
+.star {
+  color: yellow; }
+
+.table-prices {
+  /*padding-top: 20px;*/
+  padding-top: 20px;
+  padding-bottom: 0px; }
+
+.accordionPay {
+  /*margin-top: 20px;*/
+  margin-top: 20px;
+  margin-bottom: 0px; }
+
+.buttonModal {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.imageC {
+  width: auto;
+  height: 400px; }
