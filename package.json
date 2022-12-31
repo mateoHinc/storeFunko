@@ -5,8 +5,14 @@
   "main": "index.js",
   "scripts": {
     "dev": "lite-server",
+    "start": "concurrently \"npm run watch:scss\" \"npm run dev \" ",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "scss": "node-sass -o css/ css/"
+    "scss": "node-sass -o css/ css/",
+    "watch:scss": "onchange 'css/*.scss' -- npm run scss ",
+    "clean": "rimraf dist",
+    "imagemin": "imagemin images/* --out-dir dist/images",
+    "usemin": "usemin index.html -d dist --htmlmin -o dist/index.html && usemin prices.html -d dist --htmlmin -o dist/prices.html && usemin catalog.html -d dist --htmlmin -o dist/catalog.html && usemin contact.html -d dist --htmlmin -o dist/contact.html",
+    "build": "npm run clean && npm run scss && npm run imagemin && npm run usemin"
   },
   "repository": {
     "type": "git",
@@ -19,12 +25,20 @@
   },
   "homepage": "https://github.com/mateoHinc/storeFunko#readme",
   "devDependencies": {
+    "copyfiles": "^2.4.1",
+    "cssmin": "^0.4.3",
+    "htmlmin": "^0.0.7",
     "lite-server": "^2.6.1",
-    "node-sass": "^8.0.0"
+    "node-sass": "^8.0.0",
+    "onchange": "^7.1.0",
+    "rimraf": "^3.0.2",
+    "uglifyjs": "^2.4.11",
+    "usemin-cli": "^0.6.0"
   },
   "dependencies": {
     "@icon/feather": "^4.28.0-alpha.0",
     "bootstrap": "^5.2.3",
+    "concurrently": "^7.6.0",
     "material-icons": "^1.13.1",
     "sass": "^1.57.1"
   }
